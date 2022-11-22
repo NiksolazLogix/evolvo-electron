@@ -1,0 +1,14 @@
+{
+  "name": "evolvo-password-electron",
+  "version": "1.0.0",
+  "description": "gestore password",
+  "main": "main.js",
+  "author": "Nicola Solazzo",
+  "license": "MIT",
+  "scripts": {
+	"start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^21.2.1"
+  }
+}
