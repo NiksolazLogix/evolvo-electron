@@ -1,0 +1,28 @@
+{
+  "name": "client-app",
+  "version": "1.0.0",
+  "private": false,
+  "main": "main/main.js",
+  "repository": "https://github.com/NiksolazLogix/evolvo-electron.git",
+  "author": "Nicola Solazzo <solazzo@logixcorp.it>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "start:electron": "electron ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "electron": "^21.3.0"
+  }
+}
